@@ -297,7 +297,7 @@ main h6{
     overflow: hidden;
     display: inline-block;
     max-width: 0%;
-    animation: escrever normal 10s steps(200) both;
+    animation: escrever  normal 10s steps(78) both;
     white-space: nowrap;
 }
 
@@ -307,6 +307,8 @@ main h6{
     height: auto;
     display: flex;
 }
+
+
 
 @keyframes pisca{
     100%{
@@ -360,7 +362,7 @@ main h6{
     nav ul{
         display: flex;
         list-style: none;
-        gap: 20px;
+        justify-content: space-between;
         align-items: center;
         
     }
@@ -368,9 +370,9 @@ main h6{
     nav a{
         color: var(--letras);
         text-decoration: none;
-        font-size: 20;
-        padding-top: 10px;
-        padding-left: 10px;
+        font-size: 20px;
+        padding-top: 15px;
+        margin: 1%;
     }
     .pc{
         margin-top: 10px;
@@ -396,5 +398,8 @@ main h6{
         margin-left: 3% ;
     }
 
+    #ft-renato{
+        width: 250px;
+    }
 
 }
