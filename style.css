@@ -300,6 +300,12 @@ main h6{
     animation: escrever normal 10s steps(200) both;
     white-space: nowrap;
 }
+
+.curriculo{
+    width: 90%;
+    margin: 5% 5% 2% 5%;
+    height: auto;
+    display: flex;
 }
 
 @keyframes pisca{
